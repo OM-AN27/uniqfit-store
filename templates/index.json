@@ -35,7 +35,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/matching-hoodie-and-sweatpants.jpg",
-            "heading": "COMFORT",
+            "heading": "NEW ARRIVALS",
             "heading_size": "medium",
             "subheading": "",
             "button_label": "Shop Hoodies",
@@ -44,7 +44,7 @@
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 30,
+            "image_overlay_opacity": 40,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
@@ -61,6 +61,53 @@
         "change_slides_speed": 3,
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "1642546214a03b8fec": {
+      "type": "multicolumn",
+      "blocks": {
+        "164254621491d723e2-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "164254621491d723e2-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "164254621491d723e2-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164254621491d723e2-0",
+        "164254621491d723e2-1",
+        "164254621491d723e2-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
       }
     },
     "1642532737d701cc31": {
@@ -85,6 +132,7 @@
     "custom_hero",
     "featured_products",
     "1642189156bb316b19",
+    "1642546214a03b8fec",
     "1642532737d701cc31"
   ]
 }
