@@ -1,13 +1,38 @@
-{{ 'custom.css' | asset_url | stylesheet_tag }}
+{{ 'hero-custom.css' | asset_url | stylesheet_tag }}
+
+
 <div class="hero-wrapper">
     <!-- <img class= "hero-bkg-image" src="{{ section.settings.hero_image | img_url: "master" }}" > -->
     <div class="hero-headings-wrapper">
         <h2>{{ section.settings.hero_heading }}</h2>
         <p>{{ section.settings.hero_description }}</p>
-        <button class="hero-button"> {{ section.settings.hero_button}} </button>
+        <a href={{ section.settings.buttun_link}} class="hero-button"> {{ section.settings.hero_button}} </a>
     </div>
-    <img class= "green-stripes" src="{{ 'g1780.png' | asset_url }}" >
+    <!-- <img class= "green-stripes" src="{{ 'g1780.png' | asset_url }}" > -->
 </div>
+
+{%-style -%}
+    
+    .hero-wrapper {
+        background-image: url( {{  section.settings.hero_image | img_url: 'master' }} );
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        justify-content: {{ section.settings.heading_position }};
+    }
+
+    .hero-wrapper .hero-headings-wrapper {
+        text-align: {{ section.settings.heading_position }};
+    }
+
+{%- endstyle -%}
+    
+
+
+
+
+
 
 
 {% schema %}
@@ -34,9 +59,29 @@
         {
             "type": "text",
             "id": "hero_button",
-            "label": "Hero Heading",
+            "label": "Button",
             "default": "View All" 
         },
+        {
+            "type": "select",
+            "id": "heading_position",
+            "label": "Text Position",
+            "options": [
+            {
+              "value": "start",
+              "label": "Left"
+            },
+            {
+                "value": "center",
+                "label": "Center"
+            },
+            {
+                "value": "end",
+                "label": "right"
+            }
+            ]
+        },
+
         {
             "type": "url",
             "id": "button_link",

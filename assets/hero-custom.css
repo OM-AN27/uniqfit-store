@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-wrapper {
+    position: relative;
+    padding: 5rem;
+    height: 650px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: black;
+}
+
+.hero-wrapper h2 {
+    font-family: "Bebas Neue", cursive;
+    color: white;
+    font-size: 6rem;
+    text-transform: uppercase;
+    line-height: 1em;
+
+}
+
+.hero-wrapper p {
+    font-size: 1.5rem;
+    color: #fff9;
+    margin-bottom: 2rem;
+    max-width: 30em;
+}
+
+.hero-wrapper a {
+    margin-top: 3rem;
+    font-size: 2rem;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    background-color: #43cc47;
+}
+
+
+/* breakpoints  ----------- */
+
+@media screen and (min-width: 700px) {
+    .hero-wrapper h2 {
+        font-size: 12rem;
+    }
+    
+    .hero-wrapper p {
+        font-size: 2rem;
+        max-width: 50em;
+    }
+    
+    .hero-wrapper a {
+        font-size: 2rem;
+        padding: 15px 50px;
+    }
+
+}
+
+

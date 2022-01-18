@@ -1,0 +1,29 @@
+
+.newsletter-wrapping {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    background-color: #43cc47;
+    padding: 2.5rem;
+}
+
+.newsletter-wrapping h2 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 6.5em;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+.newsletter-wrapping p {
+    font-family: "Bebas Neue", cursive;
+    font-size: 5em;
+    text-transform: uppercase;
+    color: white;
+    line-height: .5em;
+}
+
+
+.newsletter-wrapping input {
+    background-color: white;
+}
