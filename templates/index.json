@@ -7,8 +7,8 @@
         "hero_heading": "Heading",
         "hero_description": "lorem ipsum dolor skimet",
         "hero_button": "View All",
-        "heading_position": "start",
-        "button_link": ""
+        "heading_position": "center",
+        "button_link": "shopify:\/\/collections\/all"
       }
     },
     "featured_products": {
