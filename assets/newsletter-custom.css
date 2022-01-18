@@ -1,29 +1,56 @@
-
+ .news-p, .news-h2 {
+     margin: 0;
+     padding: 0;
+ }
+ 
 .newsletter-wrapping {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2em;
     background-color: #43cc47;
     padding: 2.5rem;
+    margin-top: 2em;
 }
 
 .newsletter-wrapping h2 {
     font-family: "Bebas Neue", cursive;
-    font-size: 6.5em;
+    font-size: 5.5em;
     text-transform: uppercase;
     line-height: 1em;
 }
 
 .newsletter-wrapping p {
     font-family: "Bebas Neue", cursive;
-    font-size: 5em;
+    font-size: 4em;
     text-transform: uppercase;
     color: white;
-    line-height: .5em;
+    line-height: 1em;
 }
 
 
 .newsletter-wrapping input {
     background-color: white;
+}
+
+
+/* breakpoints -------------- */
+
+@media screen and (min-width: 700px) {
+
+    .newsletter-wrapping {
+        flex-direction: row;
+        gap: 2em;
+    }
+
+    .newsletter-wrapping h2 {
+        font-size: 6.5em;
+        line-height: 1em;
+    }
+    
+    .newsletter-wrapping p {
+        font-size: 5em;
+        line-height: .5em;
+    }
+
 }

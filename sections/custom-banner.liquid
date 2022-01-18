@@ -2,16 +2,19 @@
 
 
 <div class="hero-wrapper">
-    <!-- <img class= "hero-bkg-image" src="{{ section.settings.hero_image | img_url: "master" }}" > -->
     <div class="hero-headings-wrapper">
-        <h2>{{ section.settings.hero_heading }}</h2>
-        <p>{{ section.settings.hero_description }}</p>
-        <a href={{ section.settings.buttun_link}} class="hero-button"> {{ section.settings.hero_button}} </a>
+        <h2 class="hero-h2">{{ section.settings.hero_heading }}</h2>
+        <p class="hero-p">{{ section.settings.hero_description }}</p>
+        <a href={{ section.settings.button_link}} class="hero-button"> {{ section.settings.hero_button}} </a>
     </div>
-    <!-- <img class= "green-stripes" src="{{ 'g1780.png' | asset_url }}" > -->
+    <img class="green-overlay" src={{ 'g3629.png' | asset_url }} alt="greeen-overlay">
 </div>
 
 {%-style -%}
+
+    .hero-h2, .hero-p {
+        color: {{ section.settings.headings_colors}};   
+    }
     
     .hero-wrapper {
         background-image: url( {{  section.settings.hero_image | img_url: 'master' }} );
@@ -28,12 +31,6 @@
 
 {%- endstyle -%}
     
-
-
-
-
-
-
 
 {% schema %}
   {
@@ -57,10 +54,19 @@
             "default": "lorem ipsum dolor skimet" 
         },
         {
-            "type": "text",
-            "id": "hero_button",
-            "label": "Button",
-            "default": "View All" 
+            "type": "select",
+            "id": "headings_colors",
+            "label": "Text Color",
+            "options": [
+            {
+              "value": "black",
+              "label": "Black"
+            },
+            {
+                "value": "white",
+                "label": "White"
+            }
+            ]
         },
         {
             "type": "select",
@@ -80,6 +86,12 @@
                 "label": "right"
             }
             ]
+        },
+        {
+            "type": "text",
+            "id": "hero_button",
+            "label": "Button",
+            "default": "View All" 
         },
 
         {
