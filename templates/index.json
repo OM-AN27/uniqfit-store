@@ -69,6 +69,7 @@
         "164254621491d723e2-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/female-yoga-fashion-with-yoga-mat.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -78,6 +79,7 @@
         "164254621491d723e2-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/basketball-player.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -87,6 +89,7 @@
         "164254621491d723e2-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/matching-hoodie-and-sweatpants.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -102,9 +105,9 @@
       "settings": {
         "title": "",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "column_alignment": "left",
-        "background_style": "none",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
