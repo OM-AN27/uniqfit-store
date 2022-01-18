@@ -1,0 +1,105 @@
+
+{{ 'mini-hero-custom.css' | asset_url | stylesheet_tag }}
+{{ 'hero-custom.css' | asset_url | stylesheet_tag }}
+
+
+
+<div class="mini-hero-wrapper">
+    <h1 class="page-title">  {{ section.settings.page_heading}} </h1>
+    <img class="green-overlay" src={{ 'g3629.png' | asset_url }} alt="mini-hero-overlay">
+</div>
+
+
+{%- style -%}
+
+    .page-title {
+        color: {{ section.settings.heading_colors }};
+    }
+    .mini-hero-wrapper {
+        background-image: linear-gradient(90deg ,rgba(0, 0, 0, {{ section.settings.image_overlay}}) , rgba(0, 0, 0, {{ section.settings.image_overlay}})), url( {{  section.settings.bkg_image | img_url: 'master' }} );
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        justify-content: {{ section.settings.heading_position }};
+    }
+
+  
+    
+
+{%- endstyle -%}
+
+
+
+
+
+
+{% schema %}
+  {
+    "name": "Mini Hero",
+    "settings": [
+
+        {
+            "type": "image_picker",
+            "id": "bkg_image",
+            "label": "Background Image"  
+        },
+
+        {
+            "type": "range",
+            "id": "image_overlay",
+            "label":"Image Overlay",
+            "min": 0.1,
+            "max":0.5,
+            "step": 0.1,
+            "default": 0.2
+        },
+       
+        {
+            "type": "text",
+            "id": "page_heading",
+            "label": "Page Heading",
+            "default": "Page Heading" 
+        },
+      
+        {
+            "type": "select",
+            "id": "heading_colors",
+            "label": "Text Color",
+            "options": [
+            {
+              "value": "black",
+              "label": "Black"
+            },
+            {
+                "value": "white",
+                "label": "White"
+            }
+       
+            ]
+        },
+        {
+            "type": "select",
+            "id": "heading_position",
+            "label": "Text Position",
+            "options": [
+            {
+              "value": "start",
+              "label": "Left"
+            },
+            {
+                "value": "center",
+                "label": "Center"
+            }
+            ]
+        }
+    ],
+
+    "presets": [
+        {
+            "name": "mini-hero",
+            "category": "custom"
+        }
+    ]
+  }
+{% endschema %}

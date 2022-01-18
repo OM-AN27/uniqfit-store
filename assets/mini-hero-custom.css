@@ -1,0 +1,31 @@
+
+
+.mini-hero-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 200px;
+    padding: 2em;
+
+}
+
+.mini-hero-wrapper .page-title {
+    font-family: "Bebas Neue", cursive;
+    font-size: 4em;
+}
+
+
+@media screen and (min-width: 700px) {
+
+    .mini-hero-wrapper {
+        height: 300px;
+    }
+
+    .mini-hero-wrapper .page-title {
+        font-size: 5em;
+    }
+
+    .green-overlay {
+        height: 10em;
+    }
+}
