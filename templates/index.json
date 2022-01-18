@@ -75,8 +75,8 @@
         "e8aaa47e-c48a-4cf8-aacc-f26f6d719e83"
       ],
       "settings": {
-        "newsletter_heading": "Heading",
-        "newsletter_subheading": "Subheading"
+        "newsletter_heading": "subscribe",
+        "newsletter_subheading": "to our news!!"
       }
     }
   },
