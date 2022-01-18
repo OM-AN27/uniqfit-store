@@ -1,1 +1,41 @@
-{"sections":{"banner":{"type":"main-collection-banner","settings":{"show_collection_description":true,"show_collection_image":false}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":16,"image_ratio":"portrait","show_secondary_image":false,"add_image_padding":false,"show_image_outline":true,"show_vendor":false,"show_rating":false,"enable_filtering":true,"enable_sorting":true,"collapse_on_larger_devices":false}}},"order":["banner","product-grid"]}
+{
+  "sections": {
+    "1642545400aac7f0f8": {
+      "type": "custom-mini-hero",
+      "settings": {
+        "bkg_image": "shopify:\/\/shop_images\/black-white-jogging.jpg",
+        "image_overlay": 0.3,
+        "page_heading": "products",
+        "heading_colors": "white",
+        "heading_position": "start"
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    }
+  },
+  "order": [
+    "1642545400aac7f0f8",
+    "banner",
+    "product-grid"
+  ]
+}
