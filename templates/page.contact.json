@@ -10,21 +10,21 @@
         "heading_position": "center"
       }
     },
-    "main": {
-      "type": "main-page",
-      "settings": {
-      }
-    },
     "form": {
       "type": "contact-form",
       "settings": {
-        "heading": ""
+        "heading": "GOT ANY QUESTIONS?"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
       }
     }
   },
   "order": [
     "16425454454a50dc45",
-    "main",
-    "form"
+    "form",
+    "main"
   ]
 }
