@@ -1,0 +1,59 @@
+{{ 'custom.css' | asset_url | stylesheet_tag }}
+<div class="hero-wrapper">
+    <!-- <img class= "hero-bkg-image" src="{{ section.settings.hero_image | img_url: "master" }}" > -->
+    <div class="hero-headings-wrapper">
+        <h2>{{ section.settings.hero_heading }}</h2>
+        <p>{{ section.settings.hero_description }}</p>
+        <button class="hero-button"> {{ section.settings.hero_button}} </button>
+    </div>
+    <img class= "green-stripes" src="{{ 'g1780.png' | asset_url }}" >
+</div>
+
+
+{% schema %}
+  {
+    "name": "Hero",
+    "settings": [
+        {
+          "type": "image_picker",
+          "id": "hero_image",
+          "label": "Hero Image"  
+        },
+        {
+            "type": "text",
+            "id": "hero_heading",
+            "label": "Hero Heading",
+            "default": "Heading" 
+        },
+        {
+            "type": "textarea",
+            "id": "hero_description",
+            "label": "Hero Description",
+            "default": "lorem ipsum dolor skimet" 
+        },
+        {
+            "type": "text",
+            "id": "hero_button",
+            "label": "Hero Heading",
+            "default": "View All" 
+        },
+        {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button Link"
+        }
+    ],
+
+    "presets": [
+        {
+            "name": "custom-hero",
+            "category": "custom"
+        }
+    ]
+  }
+{% endschema %}
+
+
+
+
+
