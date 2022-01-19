@@ -3,8 +3,8 @@
     "1642545400aac7f0f8": {
       "type": "custom-mini-hero",
       "settings": {
-        "bkg_image": "shopify:\/\/shop_images\/black-white-jogging.jpg",
-        "image_overlay": 0.3,
+        "bkg_image": "shopify:\/\/shop_images\/basketball-player.jpg",
+        "image_overlay": 0.5,
         "page_heading": "Men's collection",
         "heading_colors": "white",
         "heading_position": "center"
