@@ -3,7 +3,8 @@
     "custom_hero": {
       "type": "custom-banner",
       "settings": {
-        "hero_image": "shopify:\/\/shop_images\/andreas-wagner-Sf0-W6_yFPg-unsplash.jpg",
+        "hero_image": "shopify:\/\/shop_images\/bikes-take-the-turn.jpg",
+        "hero_overlay": 0.2,
         "hero_heading": "feel UNIQ",
         "hero_description": "Shop our clothes today pls and thank you",
         "headings_colors": "white",
@@ -21,6 +22,22 @@
         "show_view_all": true,
         "swipe_on_mobile": false,
         "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "16426328552375d8bc": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "WOMEN'S APPAREL",
+        "collection": "womens-collection",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": false,
         "show_image_outline": true,
@@ -126,14 +143,15 @@
         "e8aaa47e-c48a-4cf8-aacc-f26f6d719e83"
       ],
       "settings": {
-        "newsletter_heading": "subscribe",
-        "newsletter_subheading": "to our emails"
+        "newsletter_heading": "sign up for",
+        "newsletter_subheading": "our offers %%"
       }
     }
   },
   "order": [
     "custom_hero",
     "featured_products",
+    "16426328552375d8bc",
     "1642189156bb316b19",
     "1642546214a03b8fec",
     "1642532737d701cc31"

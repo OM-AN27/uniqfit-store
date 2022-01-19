@@ -1,1 +1,28 @@
-{"sections":{"main":{"type":"main-blog","settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "16426246450ccfbba4": {
+      "type": "custom-mini-hero",
+      "settings": {
+        "bkg_image": "shopify:\/\/shop_images\/man-writing-at-desk.jpg",
+        "image_overlay": 0.4,
+        "page_heading": "Blogs",
+        "heading_colors": "white",
+        "heading_position": "center"
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "layout": "grid",
+        "show_image": true,
+        "image_height": "medium",
+        "show_date": true,
+        "show_author": true
+      }
+    }
+  },
+  "order": [
+    "16426246450ccfbba4",
+    "main"
+  ]
+}
