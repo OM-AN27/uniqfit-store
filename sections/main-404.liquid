@@ -1,4 +1,8 @@
 <style type="text/css">
+
+  .button-404 {
+    color: white;
+  }
   .template-404 .title + * {
     margin-top: 1rem;
   }
@@ -11,13 +15,14 @@
 </style>
 
 <div class="template-404 page-width page-margin center">
-  <p>
+  <strong><p>
     {{ 'templates.404.subtext' | t }}
-  </p>
+  </p></strong>
   <h1 class="title">
-    {{ 'templates.404.title' | t }}
+    <!-- {{ 'templates.404.title' | t }} -->
+    We couldn't find the page you are looking for :(
   </h1>
-  <a href="{{ routes.all_products_collection_url }}" class="button">
+  <a href="{{ routes.all_products_collection_url }}" class="button button-404">
     {{ 'general.continue_shopping' | t }}
   </a>
 </div>

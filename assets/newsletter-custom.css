@@ -13,6 +13,11 @@
     margin-top: 2em;
 }
 
+.newsletter-wrapping .news-text-wrapper{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
 .newsletter-wrapping h2 {
     font-family: "Bebas Neue", cursive;
     font-size: 5.5em;
@@ -26,6 +31,7 @@
     text-transform: uppercase;
     color: white;
     line-height: 1em;
+    margin-bottom: 10px;
 }
 
 
@@ -38,19 +44,37 @@
 
 @media screen and (min-width: 700px) {
 
+    .newsletter-wrapping .news-text-wrapper{
+        max-width: 1000px;
+        margin: 0;
+    }
+
     .newsletter-wrapping {
-        flex-direction: row;
+        flex-direction: column;
         gap: 2em;
     }
 
     .newsletter-wrapping h2 {
         font-size: 6.5em;
-        line-height: 1em;
+        line-height: .8em;
     }
     
     .newsletter-wrapping p {
         font-size: 5em;
-        line-height: .5em;
+        line-height: 1em;
+        margin-bottom: 0;
     }
 
+}
+
+@media screen and (min-width: 1080px) {
+    
+    .newsletter-wrapping {
+        flex-direction: row;
+        gap: 2.5rem;
+    }
+
+    .newsletter-wrapping p {
+        line-height: .7em;
+    }
 }

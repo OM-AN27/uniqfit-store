@@ -2,7 +2,7 @@
 
 <div class="newsletter-wrapping">
 
-    <div>
+    <div class="news-text-wrapper">
         <h2 class="news-h2">{{ section.settings.newsletter_heading }}</h2>
         <p class="news-p">{{ section.settings.newsletter_subheading }} </p>
     </div>
@@ -25,7 +25,7 @@
                     id="NewsletterForm--{{ section.id }}"
                     type="email"
                     name="contact[email]"
-                    class="field__input"
+                    class="field__input no-box-shadow"
                     value="{{ form.email }}"
                     aria-required="true"
                     autocorrect="off"
@@ -60,6 +60,14 @@
       {%- endcase -%}
     {%- endfor -%}
 </div>
+
+{%- style -%}
+
+  .no-box-shadow {
+    box-shadow: none;
+  }
+
+{%- endstyle -%}
 
 
 

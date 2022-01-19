@@ -51,7 +51,8 @@ a {
     transform: translateY(2px);
     width: 100%;
     bottom: 0;
-    left: 0;
+    right: 0;
+    height: 50%;
 }
 
 /* breakpoints  ----------- */
@@ -80,6 +81,24 @@ a {
         padding: 15px 50px;
     }
 
+    .green-overlay {
+        animation: overlay .8s ease-in-out;
+        height: 70%;
+    }
+
+}
+
+/* Overlay animation on main hero */
+
+@keyframes overlay {
+    from {
+        height: 0%;  
+    }
+
+    to {
+        height: 70%;
+
+    }
 }
 
 
