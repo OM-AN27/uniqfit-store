@@ -127,8 +127,8 @@
         "e8aaa47e-c48a-4cf8-aacc-f26f6d719e83"
       ],
       "settings": {
-        "newsletter_heading": "subscribe",
-        "newsletter_subheading": "to our emails"
+        "newsletter_heading": "sign up for",
+        "newsletter_subheading": "our offers %%"
       }
     }
   },
