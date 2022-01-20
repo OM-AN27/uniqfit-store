@@ -5,15 +5,9 @@
       "settings": {
         "bkg_image": "shopify:\/\/shop_images\/bikes-take-the-turn.jpg",
         "image_overlay": 0.3,
-        "page_heading": "Contact",
+        "page_heading": "Men's colection",
         "heading_colors": "white",
-        "heading_position": "center"
-      }
-    },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "GOT ANY QUESTIONS?"
+        "heading_position": "start"
       }
     },
     "main": {
@@ -24,7 +18,6 @@
   },
   "order": [
     "16425454454a50dc45",
-    "form",
     "main"
   ]
 }
