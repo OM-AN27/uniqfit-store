@@ -1,11 +1,11 @@
 {
   "sections": {
-    "1642545400aac7f0f8": {
+    "164263546085f03668": {
       "type": "custom-mini-hero",
       "settings": {
-        "bkg_image": "shopify:\/\/shop_images\/black-white-jogging.jpg",
-        "image_overlay": 0.3,
-        "page_heading": "products",
+        "bkg_image": "shopify:\/\/shop_images\/basketball-player.jpg",
+        "image_overlay": 0.4,
+        "page_heading": "Women's collection",
         "heading_colors": "white",
         "heading_position": "center"
       }
@@ -34,7 +34,7 @@
     }
   },
   "order": [
-    "1642545400aac7f0f8",
+    "164263546085f03668",
     "banner",
     "product-grid"
   ]
