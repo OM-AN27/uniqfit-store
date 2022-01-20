@@ -3,11 +3,11 @@
     "16425454454a50dc45": {
       "type": "custom-mini-hero",
       "settings": {
-        "bkg_image": "shopify:\/\/shop_images\/bikes-take-the-turn.jpg",
-        "image_overlay": 0.3,
-        "page_heading": "dzfnfgxn",
+        "bkg_image": "shopify:\/\/shop_images\/female-yoga-fashion-with-yoga-mat.jpg",
+        "image_overlay": 0.4,
+        "page_heading": "women's collection",
         "heading_colors": "white",
-        "heading_position": "center"
+        "heading_position": "start"
       }
     },
     "form": {
