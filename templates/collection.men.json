@@ -5,7 +5,7 @@
       "settings": {
         "bkg_image": "shopify:\/\/shop_images\/basketball-player.jpg",
         "image_overlay": 0.4,
-        "page_heading": "Women's collection",
+        "page_heading": "men's collection",
         "heading_colors": "white",
         "heading_position": "center"
       }
