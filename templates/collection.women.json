@@ -1,23 +1,41 @@
 {
   "sections": {
-    "16425454454a50dc45": {
+    "164263546085f03668": {
       "type": "custom-mini-hero",
       "settings": {
-        "bkg_image": "shopify:\/\/shop_images\/female-yoga-fashion-with-yoga-mat.jpg",
+        "bkg_image": "shopify:\/\/shop_images\/basketball-player.jpg",
         "image_overlay": 0.4,
-        "page_heading": "women's collection",
+        "page_heading": "Women's collection",
         "heading_colors": "white",
-        "heading_position": "start"
+        "heading_position": "center"
       }
     },
-    "main": {
-      "type": "main-page",
+    "banner": {
+      "type": "main-collection-banner",
       "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
       }
     }
   },
   "order": [
-    "16425454454a50dc45",
-    "main"
+    "164263546085f03668",
+    "banner",
+    "product-grid"
   ]
 }
