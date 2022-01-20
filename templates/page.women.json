@@ -1,31 +1,30 @@
 {
-    "sections": {
-      "16425454454a50dc45": {
-        "type": "custom-mini-hero",
-        "settings": {
-          "bkg_image": "shopify:\/\/shop_images\/bikes-take-the-turn.jpg",
-          "image_overlay": 0.3,
-          "page_heading": "Contact",
-          "heading_colors": "white",
-          "heading_position": "center"
-        }
-      },
-      "form": {
-        "type": "contact-form",
-        "settings": {
-          "heading": "GOT ANY QUESTIONS?"
-        }
-      },
-      "main": {
-        "type": "main-page",
-        "settings": {
-        }
+  "sections": {
+    "16425454454a50dc45": {
+      "type": "custom-mini-hero",
+      "settings": {
+        "bkg_image": "shopify:\/\/shop_images\/bikes-take-the-turn.jpg",
+        "image_overlay": 0.3,
+        "page_heading": "dzfnfgxn",
+        "heading_colors": "white",
+        "heading_position": "center"
       }
     },
-    "order": [
-      "16425454454a50dc45",
-      "form",
-      "main"
-    ]
-  }
-  
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "GOT ANY QUESTIONS?"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "16425454454a50dc45",
+    "form",
+    "main"
+  ]
+}
