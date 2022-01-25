@@ -5,7 +5,9 @@
     <div class="hero-headings-wrapper">
         <h2 class="hero-h2">{{ section.settings.hero_heading }}</h2>
         <p class="hero-p">{{ section.settings.hero_description }}</p>
-        <a href={{ section.settings.button_link}} class="hero-button"> {{ section.settings.hero_button}} </a>
+        {% if section.settings.hero_button != blank %}
+             <a href={{ section.settings.button_link}} class="hero-button"> {{ section.settings.hero_button}} </a>
+        {% endif %}
     </div>
     <img class="green-overlay" src={{ 'g3629.png' | asset_url }} alt="greeen-overlay">
 </div>
@@ -27,6 +29,10 @@
 
     .hero-wrapper .hero-headings-wrapper {
         text-align: {{ section.settings.heading_position }};
+    }
+
+    .hero-wrapper .green-overlay {
+        display: {{ section.settings.green_overlay_display }};
     }
 
 
@@ -104,7 +110,7 @@
         {
             "type": "text",
             "id": "hero_button",
-            "label": "Button",
+            "label": "Button Text",
             "default": "View All" 
         },
 
@@ -112,6 +118,21 @@
             "type": "url",
             "id": "button_link",
             "label": "Button Link"
+        },
+        {
+            "type": "select",
+            "id": "green_overlay_display",
+            "label": "Enable/Disable Divider",
+            "options": [
+            {
+              "value": "Block",
+              "label": "Enable"
+            },
+            {
+              "value": "none",
+              "label": "Disable"
+            }
+            ]
         }
     ],
 
