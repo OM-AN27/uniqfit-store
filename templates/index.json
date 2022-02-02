@@ -5,12 +5,13 @@
       "settings": {
         "hero_image": "shopify:\/\/shop_images\/andreas-wagner-Sf0-W6_yFPg-unsplash.jpg",
         "hero_overlay": 0.4,
-        "hero_heading": "feel UNIQ",
+        "hero_heading": "find your fit",
         "hero_description": "Shop our clothes today pls and thank you",
         "headings_colors": "white",
         "heading_position": "start",
         "hero_button": "View All",
-        "button_link": "shopify:\/\/collections\/all"
+        "button_link": "shopify:\/\/collections\/all",
+        "green_overlay_display": "Block"
       }
     },
     "featured_products": {
