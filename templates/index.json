@@ -8,7 +8,7 @@
         "hero_heading": "find your fit",
         "hero_description": "Shop our clothes today pls and thank you",
         "headings_colors": "white",
-        "heading_position": "center",
+        "heading_position": "start",
         "hero_button": "View All",
         "button_link": "shopify:\/\/collections\/all",
         "green_overlay_display": "Block"
