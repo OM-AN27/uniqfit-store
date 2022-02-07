@@ -3,8 +3,8 @@
     "custom_hero": {
       "type": "custom-banner",
       "settings": {
-        "hero_image": "shopify:\/\/shop_images\/andreas-wagner-Sf0-W6_yFPg-unsplash.jpg",
-        "hero_overlay": 0.4,
+        "hero_image": "shopify:\/\/shop_images\/Hero_Dog.jpg",
+        "hero_overlay": 0.2,
         "hero_heading": "find your fit",
         "hero_description": "Shop our clothes today pls and thank you",
         "headings_colors": "white",
