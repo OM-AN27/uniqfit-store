@@ -11,7 +11,7 @@
         "heading_position": "start",
         "hero_button": "View All",
         "button_link": "shopify:\/\/collections\/all",
-        "green_overlay_display": "Block"
+        "green_overlay_display": "none"
       }
     },
     "featured_products": {
