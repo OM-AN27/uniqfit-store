@@ -8,10 +8,10 @@
         "hero_heading": "hdhdhh",
         "hero_description": "Shop our clothes today pls and thank you",
         "headings_colors": "white",
-        "heading_position": "start",
+        "heading_position": "center",
         "hero_button": "View All",
         "button_link": "shopify:\/\/collections\/all",
-        "green_overlay_display": "Block"
+        "green_overlay_display": "none"
       }
     },
     "featured_products": {
@@ -21,9 +21,9 @@
         "collection": "men-collection",
         "products_to_show": 4,
         "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "square",
-        "show_secondary_image": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
