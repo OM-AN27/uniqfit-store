@@ -4,7 +4,11 @@
 <div class="hero-wrapper">
     <div class="hero-headings-wrapper">
         <h2 class="hero-h2">{{ section.settings.hero_heading }}</h2>
-        <p class="hero-p">{{ section.settings.hero_description }}</p>
+        {% if section.settings.heading_position == 'center' %}
+            <p class="hero-p" style="margin: 5px auto 30px;">{{ section.settings.hero_description }}</p>
+        {% else %}
+            <p class="hero-p">{{ section.settings.hero_description }}</p>
+        {% endif %}
         {% if section.settings.hero_button != blank %}
              <a href={{ section.settings.button_link}} class="hero-button"> {{ section.settings.hero_button}} </a>
         {% endif %}
@@ -14,7 +18,7 @@
 
 {%-style -%}
 
-    .hero-h2, .hero-p {
+    .hero-h2, .hero-p, .hero-p-left {
         color: {{ section.settings.headings_colors}};   
     }
     
@@ -99,10 +103,6 @@
             {
                 "value": "center",
                 "label": "Center"
-            },
-            {
-                "value": "end",
-                "label": "right"
             }
             ]
         },

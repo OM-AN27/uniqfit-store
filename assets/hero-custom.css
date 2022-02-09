@@ -24,21 +24,22 @@ a {
 
 .hero-wrapper h2 {
     font-family: "Bebas Neue", cursive;
-    font-size: 6rem;
+    font-size: 6em;
     text-transform: uppercase;
     line-height: 1em;
 
 }
 
 .hero-wrapper p {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 2rem;
     max-width: 250px;
 }
 
+
 .hero-wrapper a {
     margin-top: 3rem;
-    font-size: 2rem;
+    font-size: 1.3em;
     border: none;
     color: white;
     padding: 15px 30px;
@@ -55,6 +56,7 @@ a {
     height: 50%;
 }
 
+
 /* breakpoints  ----------- */
 
 @media screen and (min-width: 700px) {
@@ -62,23 +64,22 @@ a {
 
 
     .hero-wrapper  {
-
         height: 700px;
 
     }
 
     .hero-wrapper h2 {
-        font-size: 12rem;
+        font-size: 8em;
     }
-    
+
     .hero-wrapper p {
-        font-size: 2rem;
+        font-size: 1.7em;
         max-width: 550px;
-        margin: 5px auto 30px;
     }
+
     
     .hero-wrapper a {
-        font-size: 2rem;
+        font-size: 1.5em;
         padding: 15px 50px;
     }
 
@@ -101,5 +102,4 @@ a {
 
     }
 }
-
 
