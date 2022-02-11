@@ -5,10 +5,10 @@
       "settings": {
         "hero_image": "shopify:\/\/shop_images\/Hero_3.jpg",
         "hero_overlay": 0.1,
-        "hero_heading": "hdhdhh",
-        "hero_description": "Shop our clothes today pls and thank you",
+        "hero_heading": "find your fit",
+        "hero_description": "Here is where you put your subheading",
         "headings_colors": "white",
-        "heading_position": "center",
+        "heading_position": "start",
         "hero_button": "View All",
         "button_link": "shopify:\/\/collections\/all",
         "green_overlay_display": "none"
