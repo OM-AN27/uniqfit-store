@@ -64,23 +64,23 @@ a {
 
 
     .hero-wrapper  {
-        height: 700px;
+        height: 650px;
 
     }
 
     .hero-wrapper h2 {
-        font-size: 8em;
+        font-size: 7em;
     }
 
     .hero-wrapper p {
-        font-size: 1.7em;
+        font-size: 1.5em;
         max-width: 550px;
     }
 
     
     .hero-wrapper a {
-        font-size: 1.5em;
-        padding: 15px 50px;
+        font-size: 1.3em;
+        padding: 15px 40px;
     }
 
     .green-overlay {
