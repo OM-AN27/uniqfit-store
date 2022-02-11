@@ -5,10 +5,10 @@
       "settings": {
         "hero_image": "shopify:\/\/shop_images\/Hero_3.jpg",
         "hero_overlay": 0.1,
-        "hero_heading": "hdhdhh",
-        "hero_description": "Shop our clothes today pls and thank you",
+        "hero_heading": "find your fit",
+        "hero_description": "Here is where you put your subheading",
         "headings_colors": "white",
-        "heading_position": "center",
+        "heading_position": "start",
         "hero_button": "View All",
         "button_link": "shopify:\/\/collections\/all",
         "green_overlay_display": "none"
@@ -131,21 +131,35 @@
         "swipe_on_mobile": false
       }
     },
-    "1642532737d701cc31": {
-      "type": "custom-newsletter",
+    "1644602910d5cf9b4f": {
+      "type": "newsletter",
       "blocks": {
-        "e8aaa47e-c48a-4cf8-aacc-f26f6d719e83": {
+        "1644602910d42a1572-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SIGN  UP TO GET OUR EXCLUSIVE OFFERS"
+          }
+        },
+        "1644602910d42a1572-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "1644602910d42a1572-2": {
           "type": "email_form",
           "settings": {
           }
         }
       },
       "block_order": [
-        "e8aaa47e-c48a-4cf8-aacc-f26f6d719e83"
+        "1644602910d42a1572-0",
+        "1644602910d42a1572-1",
+        "1644602910d42a1572-2"
       ],
       "settings": {
-        "newsletter_heading": "sign up for",
-        "newsletter_subheading": "our offers %%"
+        "color_scheme": "accent-1",
+        "full_width": true
       }
     }
   },
@@ -155,6 +169,6 @@
     "16426328552375d8bc",
     "1642189156bb316b19",
     "1642546214a03b8fec",
-    "1642532737d701cc31"
+    "1644602910d5cf9b4f"
   ]
 }
