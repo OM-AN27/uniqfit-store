@@ -31,6 +31,13 @@
           "settings": {
           }
         },
+        "bf28a19e-7306-4772-a164-f04ecbfb3d10": {
+          "type": "popup",
+          "settings": {
+            "text": "Size Chart",
+            "page": "{{ product.metafields.my_fields.size_chart_page.value }}"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -55,6 +62,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "bf28a19e-7306-4772-a164-f04ecbfb3d10",
         "buy_buttons",
         "description",
         "share"
