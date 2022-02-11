@@ -35,7 +35,7 @@
           "type": "popup",
           "settings": {
             "text": "Size Chart",
-            "page": "{{ product.metafields.my_fields.pants_size_chart_page.value }}"
+            "page": "{{ product.metafields.my_fields.size_chart_page.value }}"
           }
         },
         "buy_buttons": {
