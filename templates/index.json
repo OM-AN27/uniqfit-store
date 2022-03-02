@@ -4,14 +4,14 @@
       "type": "custom-banner",
       "settings": {
         "hero_image": "shopify:\/\/shop_images\/Hero_3.jpg",
-        "hero_overlay": 0.1,
+        "hero_overlay": 0.2,
         "hero_heading": "find your fit",
         "hero_description": "Here is where you put your subheading",
         "headings_colors": "white",
         "heading_position": "start",
         "hero_button": "View All",
         "button_link": "shopify:\/\/collections\/all",
-        "green_overlay_display": "none"
+        "green_overlay_display": "Block"
       }
     },
     "featured_products": {
