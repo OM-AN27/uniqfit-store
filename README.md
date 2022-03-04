@@ -1,5 +1,4 @@
 # Uniqfit Shopify Store
-=======================
 
 Shopify clothing store for a client using the latest 2.0 Update.
 
