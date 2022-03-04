@@ -10,5 +10,5 @@ Using Shopify CLI, this was developed in a local enviroment connected to the liv
 * Shopify CLI
 * VS Code
 
-![UniqFit][assets/uniq-fit-readme.png]
+![UniqFit](assets/uniq-fit-readme.png)
 
