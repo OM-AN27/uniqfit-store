@@ -2,6 +2,7 @@
   "sections": {
     "164263546085f03668": {
       "type": "custom-mini-hero",
+      "disabled": true,
       "settings": {
         "bkg_image": "shopify:\/\/shop_images\/matching-hoodie-and-sweatpants.jpg",
         "image_overlay": 0.4,
