@@ -67,7 +67,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "5207580486179834842": {
+        "type": "shopify:\/\/apps\/codely-add-head-body-code\/blocks\/custom-head-code\/a6a14ecd-4779-443b-b47e-2ddf0fa986cb",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
