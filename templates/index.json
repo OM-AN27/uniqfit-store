@@ -48,9 +48,11 @@
     },
     "1642189156bb316b19": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "16421891561245c611-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/matching-hoodie-and-sweatpants.jpg",
             "heading": "NEW ARRIVALS",
@@ -86,6 +88,7 @@
       "blocks": {
         "164254621491d723e2-0": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/female-yoga-fashion-with-yoga-mat.jpg",
             "title": "Column",
@@ -96,6 +99,7 @@
         },
         "164254621491d723e2-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/basketball-player.jpg",
             "title": "Column",
@@ -106,6 +110,7 @@
         },
         "164254621491d723e2-2": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/matching-hoodie-and-sweatpants.jpg",
             "title": "Column",
