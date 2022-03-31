@@ -3,8 +3,8 @@
     "custom_hero": {
       "type": "custom-banner",
       "settings": {
-        "hero_image": "shopify:\/\/shop_images\/Hero_3.jpg",
-        "hero_overlay": 0.2,
+        "hero_image": "shopify:\/\/shop_images\/largecover_test.png",
+        "hero_overlay": 0.3,
         "hero_heading": "find your fit",
         "hero_description": "Apparel for work and play",
         "headings_colors": "white",
