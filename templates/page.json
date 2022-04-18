@@ -39,10 +39,96 @@
         "color_scheme": "background-1",
         "full_width": true
       }
+    },
+    "16502604973237b162": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "Blog posts",
+        "blog": "",
+        "post_limit": 3,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "soft_background": false,
+        "show_view_all": true
+      }
+    },
+    "1650260538e45ae755": {
+      "type": "custom-newsletter",
+      "disabled": true,
+      "settings": {
+        "newsletter_heading": "Heading",
+        "newsletter_subheading": "Sunheading"
+      }
+    },
+    "16502605188faef81c": {
+      "type": "custom-mini-hero",
+      "disabled": true,
+      "settings": {
+        "image_overlay": 0.2,
+        "page_heading": "Page Heading",
+        "heading_colors": "black",
+        "heading_position": "start"
+      }
+    },
+    "1650260545c3d135ef": {
+      "type": "custom-banner",
+      "disabled": true,
+      "settings": {
+        "hero_overlay": 0.2,
+        "hero_heading": "Heading",
+        "hero_description": "lorem ipsum dolor skimet",
+        "headings_colors": "black",
+        "heading_position": "start",
+        "hero_button": "View All",
+        "button_link": "",
+        "green_overlay_display": "Block"
+      }
+    },
+    "1650260775b44635dc": {
+      "type": "rich-text",
+      "blocks": {
+        "1650260775f7be854f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Return Policy",
+            "heading_size": "h1"
+          }
+        },
+        "1650260775f7be854f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1650260775f7be854f-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1650260775f7be854f-0",
+        "1650260775f7be854f-1",
+        "1650260775f7be854f-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
     "main",
-    "1648696989e2a5323a"
+    "1648696989e2a5323a",
+    "16502604973237b162",
+    "1650260538e45ae755",
+    "16502605188faef81c",
+    "1650260545c3d135ef",
+    "1650260775b44635dc"
   ]
 }
